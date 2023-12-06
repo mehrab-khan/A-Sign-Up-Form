@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Noto+Sans&family=Oswald:wght@300&family=Playpen+Sans:wght@300&family=Quicksand&display=swap');
+        
+        .container{
+            box-shadow: 0px 3px 23px 16px rgba(0,0,0,0.2);
+            -webkit-box-shadow: 0px 3px 23px 16px rgba(0,0,0,0.2);
+            -moz-box-shadow: 0px 3px 23px 16px rgba(0,0,0,0.2);
+            transition: 0.8s;
+            height: 250px;
+            width: 300px;
+            position: relative;
+            margin: auto;
+            top: 90px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transition: 0.1s;
+            border-radius: 8px;
+        }
+        hr{
+            margin-top: 6%;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        h2{
+            color: rgb(0, 0, 0);
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Noto Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playpen Sans', cursive;
+            font-family: 'Quicksand', sans-serif;
+            text-align: center;
+            position: relative;
+            margin: auto;
+            top: 3%;
+            font-size: 22px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        #division{
+            margin-top: 5%;
+            margin-left: 3%;
+            padding: 9px;
+            width: 283px;
+             
+             
+            outline: none;
+            font-size: 16px;
+            border: none;
+            background-color: rgb(211, 211, 211);
+            border-radius: 5px 5px 5px 5px;
+        }
+        .container:hover{
+            box-shadow: 0px 3px 136px 19px rgba(0,0,0,0.24);
+            -webkit-box-shadow: 0px 3px 136px 19px rgba(0,0,0,0.24);
+            -moz-box-shadow: 0px 3px 136px 19px rgba(0,0,0,0.24);
+            transition: 0.8s;
+            border: none;
+        }
+        #submit{
+            height: 30px;
+            width: 75px;
+            border-radius: 4px;
+            background-color: green;
+            color: white;
+            font-size: 16px;
+            border: none;
+            position: absolute;
+            margin: auto;
+            top: 66px;
+            bottom: 0;
+            left: 0px;
+            right: 0;
+        }
+
+
+
+
+        /*main*/
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Noto+Sans&family=Oswald:wght@300&family=Playpen+Sans:wght@300&family=Quicksand&display=swap');
+        
+        body{
+            margin: 0;
+            padding: 0;
+           
+             
+        }
+        #cityName{
+            font-size: 30px;
+            margin-left: 4%;
+            color: white;
+            position: absolute;
+            margin-top: 8%;
+           
+            
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+        }
+        #date{
+            position: absolute;
+            margin-left: 4%;
+            font-size: 18px;
+            color: white;
+            margin-top: 50px;
+            font-family: 'Quicksand', sans-serif;
+        }
+        #cencious{
+            position: absolute;
+            margin-left: 68%;
+            font-size: 45px;
+            color: white;
+            margin-top:80px;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .img{
+            width: 63%;
+            height: 48%;
+             
+            position: absolute;
+             margin: auto;
+             top: 0;
+             left: 0;
+             right: 0;
+             bottom:57px;
+        }
+        #footer{
+            background-color: white;
+            width: 360px;
+            height: 210px;
+            position: absolute;
+             margin: auto;
+             right: 0;
+             left: 0;
+             bottom: 0;
+             border-radius: 10% 10% 0% 0%;
+        }
+        .temp1 {
+            position: absolute;
+            background-color:  rgb(201, 201, 204);
+            border-radius: 50%;
+            height: 65px;
+            width: 63px;
+            margin-left: 5%;
+            margin-top: 10%;
+        }
+        .wind {
+            position: absolute;
+            background-color:  rgb(201, 201, 204);
+            border-radius: 50%;
+            height: 65px;
+            width: 63px;
+            margin-left: 5%;
+            margin-top: 32%;
+        }
+        
+        .temp02 {
+            position: absolute;
+            background-color:  rgb(201, 201, 204);
+            border-radius: 50%;
+            height: 65px;
+            width: 63px;
+            margin-left: 48%;
+            margin-top: 10%;
+        }
+        .water {
+            position: absolute;
+            background-color:  rgb(201, 201, 204);
+            border-radius: 50%;
+            height: 65px;
+            width: 63px;
+            margin-left: 48%;
+            margin-top: 32%;
+        }
+        .demo{
+            position: absolute;
+            color: rgb(0, 0, 99);
+            font-weight: 600;
+
+            margin-left: 5%;
+            margin-top: 2%;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .material-symbols-outlined{
+            position: absolute;
+            margin-top: 28%;
+            margin-left: 32%;
+            font-size: 37px;
+            color: rgb(0, 60, 255);
+        }
+        #temperature , #wind ,#temperature02 , #des{
+            position: absolute;
+            color: rgb(0, 60, 255);
+            font-family:   'Quicksand', sans-serif;
+            font-size: 14px;
+        }
+        #wind{
+            margin-top: 30%;
+            margin-left: 23%;
+            
+        }
+        #temperature{
+            margin-top: 8%;
+            margin-left: 22%;
+             
+        }
+        #temperature02{
+            margin-top: 8%;
+            margin-left: 65%;
+        }
+        #des{
+            margin-top: 30%;
+            margin-left: 65%;
+        }
+
+
+
+
+        #status-temp01, #status-wind, #status-temp02, #status-des {
+            position: absolute;
+            color: rgb(0, 60, 255);
+            font-family:   'Quicksand', sans-serif;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        #status-temp01{
+            margin-top: 15%;
+            margin-left: 28%;
+        }
+        #status-wind{
+            margin-top: 37%;
+            margin-left: 25%;
+        }
+        #status-temp02{
+            margin-top: 15%;
+            margin-left: 71%;
+        }
+        #status-des {
+            margin-top: 38%;
+            margin-left: 68%;
+            font-size: 16px;
+        }
+        #cloud{
+            margin-top: 23%;
+            font-size: 51px;
+            margin-left: 4%;
+            color: white;
+            position: absolute;
+        }
+        #status{
+            color: white;
+            margin-top: 36%;
+            position: absolute;
+            margin-left: 4%;
+            font-family: 'Quicksand', sans-serif;
+        }
